@@ -20,6 +20,7 @@
     <meta-data android:name="com.onesignal.NotificationOpened.DEFAULT" android:value="DISABLE" />
 
     <application
+        android:name=".notifikasi.java.OnesignalConfig"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -42,16 +43,6 @@
             android:screenOrientation="portrait" />
 
         <!-- Firebase Notifications -->
-        <service android:name="id.poncoe.notificationrealtime.notifikasi.java.MyFirebaseMessagingService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
-        <service android:name="id.poncoe.notificationrealtime.notifikasi.java.MyFirebaseInstanceIDService">
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-            </intent-filter>
-        </service>
         <!-- ./Firebase Notifications -->
 
         <meta-data

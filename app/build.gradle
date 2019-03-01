@@ -7,7 +7,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
 
-        manifestPlaceholders = [onesignal_app_id               : "YOUR ONESIGNAL ID",
+        manifestPlaceholders = [onesignal_app_id               : "d0dacbc3-8acc-4e19-9f1e-09d571dbc2be",
                                 onesignal_google_project_number: "REMOTE"]
 
 
