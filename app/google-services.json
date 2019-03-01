@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586776651608",
+    "firebase_url": "https://notificationrealtime.firebaseio.com",
+    "project_id": "notificationrealtime",
+    "storage_bucket": "notificationrealtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586776651608:android:008565a46ebf6b21",
+        "android_client_info": {
+          "package_name": "id.poncoe.notificationrealtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586776651608-ub5t5ccith4p2itfv0qo8ingmq9poba1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.poncoe.notificationrealtime",
+            "certificate_hash": "ec4127d74af881a65cba3fc98a830d7aab747309"
+          }
+        },
+        {
+          "client_id": "586776651608-bt3ce0i1d3k1955p31241httu19ajs25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmfyjiOlDc9ivOHLBpzHOsdM7SN2n4B0c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586776651608-bt3ce0i1d3k1955p31241httu19ajs25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
